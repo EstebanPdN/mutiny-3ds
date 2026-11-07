@@ -59,16 +59,13 @@ This is an unofficial fan port. It is not affiliated with or endorsed by Nitrome
 
 ### Feature details
 
-* **Story mode** against the computer, with the original dialogue, scores and the end-of-game screen.
+* **Story mode** against the computer, with the original dialogue, scores, etc.
 * **Two players** on one console, taking turns on 18 battle maps. Treasure chests in two-player
-  games hold 1 to 5 different random weapons, with 1 to 10 of each. They never give a weapon that
-  is already infinite for that pirate.
+  games hold 1 to 5 different random weapons, with 1 to 10 of each.
 * **Bottom-screen interface**: choose a pirate, pick a weapon, aim, place crates, barrels and
   anchors on the minimap, steer the parachute bomb, fire the cannon or send the tidal wave.
 * **Test match**: press **START + SELECT** together, in a menu or during a game, to start a
   two-player battle where every pirate carries 5 of every weapon.
-* Nitrome's original intro on start-up, a two-screen pause window with match information, and
-  local best scores.
 
 ## Download and installation
 
@@ -150,7 +147,7 @@ See the [development guide](docs/DEVELOPMENT.md) for the full setup.
 
 Port:
 
-* **Esteban PDN**: Nintendo 3DS and macOS port, two-screen interface and pixel art, release maintenance
+* **EstebanPdN**: Nintendo 3DS port, two-screen interface and pixel art, release maintenance
 
 Tools and libraries:
 
