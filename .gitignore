@@ -1,0 +1,14 @@
+# Build output and local tools
+build/
+tools/.venv/
+tools/third_party/
+__pycache__/
+.DS_Store
+
+# Nitrome content: never committed. Everything below is extracted or generated
+# from the user's own Mutiny.swf (see docs/DEVELOPMENT.md).
+*.swf
+data/
+assets/
+src/game/lines.h
+dumps/

@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible problem in this port.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Port version
+      description: Include the release tag or source commit.
+    validations:
+      required: true
+  - type: dropdown
+    id: console
+    attributes:
+      label: Environment
+      options:
+        - Old Nintendo 3DS family
+        - New Nintendo 3DS family
+        - Emulator
+        - macOS development build or build tools
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Game mode
+      options:
+        - Story (1 player)
+        - Battle (2 players)
+        - Test match (START + SELECT)
+        - Menus
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Level, weapon and the exact actions.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Screenshots, video, or crash dumps from Luma3DS (sdmc:/luma/dumps/arm11/). Do not upload SWF files, extracted game data or personal saves.
