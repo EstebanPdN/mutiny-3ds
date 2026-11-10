@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img width="1200" alt="Mutiny 3DS: title screen, aiming a throw and the weapon grid, each with the game on the top screen and the touch interface below" src="docs/images/hero-rounded.png" />
+  <img width="1200" alt="Mutiny running on Nintendo 3DS, with gameplay on the top screen and the weapon inventory on the touch screen" src="docs/images/showcase-rounded.webp" />
 </p>
 
 <p align="center">
